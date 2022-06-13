@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+testsolana = "vLNpuLhHNARtaR6xPChuAqzXasMW8nM1a3PKHmFCacc"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/marat/.config/solana/id.json"
+
+[scripts]
+test = "node tests/testsolana.js"
